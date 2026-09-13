@@ -21,15 +21,27 @@ wheels/
 .installed.cfg
 *.egg
 
+# Secrets & Environment
+*.env
+.env
+.env.*
+
+# Logs
+*.log
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
 # Virtual Environment
 venv/
 ENV/
+.venv/
 
 # IDE / Editor
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
 .DS_Store
+Thumbs.db
